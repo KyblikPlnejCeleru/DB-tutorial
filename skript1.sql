@@ -17,15 +17,17 @@ plat int not null check(plat>0) -- vetsi nez nula hlidani
 --vytvoreni diagramu v MSSQL serveru : dBdiagram --> new diagram (screenshotovat)
 --ulozeni diagramu jako vystrisek, ulozeni skriptu na plochu(to co pisu) jako sql
 --zmena struktury tabulky (pridani sloupce datum narozeni)
---alter table zamestnanec add datum_narozeni date;
+--xx  alter table zamestnanec add datum_narozeni date;
 --SQL DDL(vytvareni struktury):create,alter,drop
 --smazani tabulky na strane 1
--- drop table profese; -- neni mozne vzhledem k zavislosti tabulky na strane N
+--xx  drop table profese; -- neni mozne vzhledem k zavislosti tabulky na strane N
 --napred je nutne smazat zavisle tabulky strana N
---drop table zamestnanec;
+--xx drop table zamestnanec;
 --smazani cele databaze .. je mozne pouze pokud mame prava sa(server admin) jsme v master prepnuti
---use master; 
---drop database firma; -- zavrit diagramy,byt master
+--xx use master; 
+--xx drop database firma; -- zavrit diagramy,byt master
+
+
 
 --SQL DML(prikazy pro praci s daty): insert,update,delete,select
 -- vlozeni profesi 
